@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-lg">
+        <nav class="navbar fixed-top navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold d-md-none" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#best-selling">Best Selling</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <a class="navbar-brand d-none d-md-block" href="#">Yummy Donuts</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact" >Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+        <section class="hero position-relative">
+            <img src="hero-donut.avif" alt="" class="img-fluid">
+            <div class="position-absolute top-50 start-0 end-0 translate-middle-y mx-auto">
+                <h2 class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <a class="btn btn-dark rounded-0 px-3 py-2" href="#">Order Now</a>
+            </div>
+        </section>
+
+        <section id="best-selling" class="text-center py-5">
+            <h2>Best Selling</h2>
+            <p>Aliquam gravida nisl a suscipit condimentum</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="strawberry-donut.avif" alt="" class="img-fluid">
+                    <h3>Strawberry Donut</h3>
+                    <p>$2.00</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="chocolate-donut.avif" alt="" class="img-fluid">
+                    <h3>Chocolate Donut</h3>
+                    <p>$2.00</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="sprinkles-donut.avif" alt="" class="img-fluid">
+                    <h3>Sprinkles Donut</h3>
+                    <p>$2.00</p>
+                </div>
+            </div>
+            <a href="" class="btn btn-outline-dark rounded-0 px-3 py-2 btn-lg mt-3">All Donuts</a>
+        </section>
+
+
+        <section id="about" class="text-center bg-danger-subtle">
+            <div class="about-us py-5 px-4 mx-auto">
+              <h2>About Us</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                Quidem numquam magnam voluptatum. Eos vitae quo, asperiores quaerat, sit magnam nostrum consequuntur temporibus eveniet dignissimos, error nisi vel! Mollitia, quia impedit!</p>
+                <a href="#" class="btn btn-dark px-3 py-2 rounded-0" >Know More</a>
+            </div>
+        </section>
+
+
+        <seciton id="gallery" class="text-center py-5">
+          <h2>Lorem ipsum</h2>
+          <div class="row row-cols-2 row-cols-sm-3 g-2 pt-2">
+            <div class="col">
+              <img src="gallery/donut-1.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="gallery/donut-2.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="gallery/donut-3.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="gallery/donut-4.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="gallery/donut-5.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col">
+              <img src="gallery/donut-6.avif" alt="" class="img-fluid">
+            </div>
+          </div>
+        </seciton>
+
+        <section id="contact " class="text-center bg-light py-5">
+          <div class="contact mx-auto">
+            <h2 class="text-uppercase fw-bold">Join Our Mailing List</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero neque minus numquam iure aliquam fugit ab dolores!</p>
+            <div class="input-group input-group-lg mb-3 w-75 mx-auto">
+              <input type="text" class="form-control rounded-0 shadow-none" placeholder="Email Address" aria-label="Recipient’s username" aria-describedby="basic-addon2">
+              <span class="btn btn-dark input-group-text rounded-0" id="basic-addon2"><i class="bi bi-send-fill"></i></span>
+            </div>
+            <div class="social-media py-3">
+              <a href="#" class="fs-4 px-3 "><i class="bi bi-facebook text-dark "></i></a>
+              <a href="#" class="fs-4 px-3 "><i class="bi bi-youtube text-dark "></i></a>
+              <a href="#" class="fs-4 px-3 "><i class="bi bi-linkedin text-dark "></i></a>
+              <a href="#" class="fs-4 px-3 "><i class="bi bi-pinterest text-dark "></i></a>
+              <a href="#" class="fs-4 px-3 "><i class="bi bi-twitter text-dark "></i></a>
+            </div>
+            <small>Copyright &copy; Yummy Donuts 2026.</small>
+          </div>
+        </section>
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
